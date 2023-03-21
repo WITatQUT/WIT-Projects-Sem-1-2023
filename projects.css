@@ -2,7 +2,12 @@
     padding-top: 5rem;
 }
   
-.center-page {
+.center-page-50 {
   margin: auto;
-  width: 75%;
+  width: 50%;
+}
+
+.center-page-75 {
+    margin: auto;
+    width: 75%;
 }
