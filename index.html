@@ -6,46 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>My Personal Website</title>
     <link rel="icon" href="img/logo_wit.png">
+    <!--Extras-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600;900&display=swap" rel="stylesheet">
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="index.css">
   </head>
 
   <body>
+    <!--Navbar-->
     <header>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          </ul>
+      <div class="navbar">
+          <a class="navbar-brand" href="index.html"> <img src="img/logo_wit.png" width="7%" alt="logo"></a>
+        <ul class="navbar-menu">
+          <div class="navbar-links">
+            <li><a class="active-link text" href="index.html">Home</a></li>
+            <li><a class="text" href="aboutme.html">About Me</a></li>
+            <li><a class="text" href="projects.html">Projects</a></li>
+          </div>    
+        </ul>
+      </div>
     </header>
 
     <!-- Intro -->
-    <section>
-        <div>
-            <h1><strong>Hey there!</strong> </h1>
-            <h1>My name is <strong>Kiara</strong></h1>
+    <section class="intro-section">
+        <div class="center-page">
+          <h1 class="intro-title">Hey there!</h1>
+            <h1>I'm Kiara</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
     </section>
 
-    <section>
-      <div>
-        <div>
-          <div>
-            <img src="img/projects_night.png" alt="Cat" width="20%">
-            <div>
-              <h4><b>Women in Tech</b></h4>
-              <p>QUT Club</p>
-            </div>
+
+    <section class="center-page">
+        <div class="card">
+          <img src="img/projects_night.png" alt="Cat">
+          <div class="container">
+            <h3><b>Women in Tech</b></h3>
+            <p>QUT Club</p>
           </div>
         </div>
-
-      </div>
     </section>
-     
+
+  
     <footer>
+      <div class="footer">
+        <div class="footer-info">
           <ul>
             <li>Contact Me</li>
             <li>© 2023 Kiara Maier</li>
           </ul>
+        </div>
+      </div>
     </footer>
 
   </body>

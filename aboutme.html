@@ -6,30 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>My Personal Website</title>
     <link rel="icon" href="img/logo_wit.png">
+     <!--Extras-->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600;900&display=swap" rel="stylesheet">
+    <!--Style sheets-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutMe.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
   </head>
 
   <body>
+    <!--Navbar-->
     <header>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          </ul>
+      <div class="navbar">
+          <a class="navbar-brand" href="index.html"> <img src="img/logo_wit.png" width="7%" alt="logo"></a>
+        <ul class="navbar-menu">
+          <div class="navbar-links">
+            <li><a class="text" href="index.html">Home</a></li>
+            <li><a class="active-link text" href="aboutme.html">About Me</a></li>
+            <li><a class="text" href="projects.html">Projects</a></li>
+          </div>    
+        </ul>
+      </div>
     </header>
         
-    <section>
-        <div>
-            <h1>About Me</h1>
-        </div>
+    <section class="intro-section">
+      <div class="center-page">
+          <h1>About Me</h1>
+      </div>
     </section>
      
     <footer>
+      <div class="footer">
+        <div class="footer-info">
           <ul>
             <li>Contact Me</li>
             <li>© 2023 Kiara Maier</li>
           </ul>
+        </div>
+      </div>
     </footer>
-
   </body>
   
 </html>

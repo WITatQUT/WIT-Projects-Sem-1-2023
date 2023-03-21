@@ -1,0 +1,42 @@
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    float: right;
+}
+
+.navbar {
+    padding: 0.7rem;
+    background-color: rgb(160, 196, 196);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.text {
+    font-size: 1.3rem;
+}
+
+.navbar li {
+    display: inline;
+}
+
+li a {
+    color: #000000e8;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(101, 124, 124);
+}
+
+.active-link {
+    color: rgb(101, 124, 124);
+}
+
+
+
+
+
